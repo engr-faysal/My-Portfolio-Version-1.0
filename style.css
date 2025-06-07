@@ -1,0 +1,81 @@
+ /*Custom CSS*/
+body,
+html {
+    height: 100%;
+}
+
+.bg-primary-to-secondary {
+    background: linear-gradient(135deg, #1E6682 0%, #3D9965 100%);
+}
+
+.text-gradient{
+    background: -webkit-linear-gradient(135deg, #1E6682 0%, #3D9965 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.profile-backg{
+    background-image: url("asset/profile-b8.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+    height: 75vw;
+    width: 70vw;
+    max-height: 45rem;
+    max-width: 42rem;
+}
+
+.profile-img{
+    position: absolute;
+    height: 75vw;
+    max-height: 42rem;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-40%);
+}
+
+
+ @media (min-width: 576px) {
+     .profile-backg {
+         height: 60vw;
+         width: 55vw;
+
+         .profile-img {
+             height: 55vw;
+         }
+     }
+ }
+
+ @media (min-width: 768px) {
+     .profile-backg {
+         height: 50vw;
+         width: 45vw;
+
+         .profile-img {
+             height: 45vw;
+         }
+     }
+ }
+ @media (min-width: 992px) {
+     .profile-backg {
+         height: 40vw;
+         width: 35vw;
+
+         .profile-img {
+             height: 35vw;
+         }
+     }
+ }
+ @media (min-width: 1200px) {
+     .profile-backg {
+         height: 70vw;
+         width: 65vw;
+
+         .profile-img {
+             height: 65vw;
+         }
+     }
+ }
+
+
